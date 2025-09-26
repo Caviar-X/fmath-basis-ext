@@ -472,3 +472,23 @@ The questions that uses L'Hopital's rule will usually appear in three forms, the
   Now we can apply the L'Hopital rule, so this limit is equal to
   $ lim_(x arrow 0) (x^(-1)) / (-x^(-2)) = lim_(x arrow 0) (-x) = 0 $
 ]
+
+Of course, the form we just mentioned is just the most basic ones, here is one of the advaced form.
+
+This is a kind of advanced form,I'll left as a exercise
+
+#question(title: "Question 1.8.4")[
+
+In this problem,you may assume all the function mentioned are continous and logarithms can swap places with limits.
+
+(i) By using L'hopital rule and logarithms, prove that
+
+$ lim_(f(x) arrow 0)  (1+f(x))^(1/f(x))=e $
+
+(ii) Hence, compute $ lim_(x arrow 0) cos 2x^(3 / x^2) $
+
+
+
+]
+
+

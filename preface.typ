@@ -9,17 +9,15 @@
 
 This book is kinda a collection of my thoughts, notes and extensive mathematical knowledge while studying Cambridge International Education (CIE) A-level Further Mathematics. Because of the scarcity of resources online. I currently haven't found a concise, clear route of self-studying A-level Further Mathematics on the Internet. So I decided to write this book to help myself and hopefully others.
 
-Moreover, This book is the by-product of my own imagination of a "perfect" A-level Further Mathematics textbook. I have read the CIE textbook, Hodder education textbook and Collins textbook. I'm not saying that these textbooks are bad, but they didn't add the things that I think are essential to a Further Mathematics textbook, so I decide to work it out solely.
+Moreover, This book is the by-product of my own readings and the extension beyond the syllabus, Maybe I am a bit arrogant,but I don't think the syllabus is trying to teach students math from a ground-up order, so I decided to work it out on my own.
 
 To be clear, I am not a professional mathematician, nor a teacher. I am just a student who wants to share the struggles and thoughts that I had while studying A-level Further Mathematics.
 
-Although I myself is studying CIE A-level Further Mathematics, I believe that this book can also be useful for students studying other examination boards, such as Edexcel and AQA.
+Although I myself is studying CIE A-level Further Mathematics, I believe that this book can also be useful for students studying other examination boards, such as Edexcel and AQA. I belive this book also applies to Singapore GCE A-level students and students who're preparing for their STEP/TMUA/MAT examination.
 
 Also, since I don't wanna this book to be another "dry" textbook, the register and the tone will obviously be informal. and since english is not my first language, you probably will find lots of grammatical and spelling errors. If you do find any, please make an issue or pull request on #link("https://github.com/Caviar-X/fmath-basis-ext")[The github repository of this book]. You can also send me a pull-request if you want to make any contributions.
 
-I assume that all the readers are already familiar with all the contents in A-level mathematics.
-
-I would like to thank all the people who're currently reading the book. You guys make my time and effort worth it, and to all the courses and books that I have seen and learned from, without you guys.
+I would like to thank all the people who're currently reading the book. You guys make my time and effort worth it.
 
 Finally, to Ms.Cassie, thank you for bringing me to the world of mathematics.
 
@@ -27,7 +25,7 @@ Finally, to Ms.Cassie, thank you for bringing me to the world of mathematics.
 
 #align(right, text[
   \
-  Justin Yu
+  Synth Magic
 
   Sep 12, 2025
 ])
@@ -35,11 +33,31 @@ Finally, to Ms.Cassie, thank you for bringing me to the world of mathematics.
 
 #pagebreak()
 
-#align(center, text(red, weight: "bold",size: 30pt)[
-  This book is licensed under AGPL version 3.0
+= Thank you all
 
-  Any unapproved commerical use of the contents inside is strictly prohibited
-])
+\
+
+Here are some of the resources I've read or seek help for, I hereby present my greatest thanks to all of you guys, without you the book is impossible.
+
+\
+
+The list of resources (ranking in no particular order):
+
+- _Composite integration method_ By Zhu Yongyin,Guo Wenxiu (ISBN:  7-5609-2827-7)
+
+- _Problems in mathematical analysis_ By B. Demidovich and others (ISBN: 9785030009438)
+
+- _Tide of Indefinite Integrals_ By #link("https://www.zhihu.com/people/la-la-la-4-25-46")[Xu TiaoZi] (Currently not published)
+
+\
+
+The list of contributors (ranking in no particular order):
+
+- Synth Magic (Founder, main contributor)
+- Pieceofmeat (discord)
+- RyanCantPvP (discord)
+- ALTR (discord)
+- If you want to be the one on the list, visit #link("https://github.com/Caviar-X/fmath-basis-ext")[our github repo] and make an issue or pull request
 
 #pagebreak()
 
@@ -116,11 +134,6 @@ yeah uh pretty much every textbook has these with like beautiful boxes in it, so
   Hence,
   $ f(2)=f(1) + integral^2_1 f'(a)space "d"a = -pi ln(4-2sqrt(3)) $
 ]
-
-== Exercise
-
-+ Prove that For any measureable, bounded function $h : Theta -> RR$ we have:
-  $ log EE_(theta ~ pi)[exp h(theta)] = sup_(rho in cal(P)(Theta)) [ EE_(theta~rho)[h(theta)] - K L(rho || pi) ]. $
 
 
 #pagebreak()

@@ -6,8 +6,9 @@
 
 #show: ilm.with(
   title: "A-level Further Mathematics Guide: Basis and Extension",
-  author: "Justin Yu",
+  author: "Synth Magic",
   preface: [#include "preface.typ"],
 )
 
 #include "chapters/limits.typ"
+#include "chapters/calctech.typ"
